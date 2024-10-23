@@ -39,16 +39,17 @@ const variations = {
     }
   `,
   danger: css`
-    color: var(--color-red-100);
-    background-color: var(--color-red-700);
+    color: var(--color-red-700);
+    background-color: var(--color-red-100);
+    border-color: var(--color-red-700);
 
     &:hover {
-      background-color: var(--color-red-800);
+      color: var(--color-red-100);
+      background-color: var(--color-red-700);
     }
   `,
 };
 const Button = styled.button`
-  border: none;
   border-radius: var(--border-radius-sm);
   box-shadow: var(--shadow-sm);
   ${(props) => sizes[props.size]}
