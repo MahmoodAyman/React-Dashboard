@@ -40,7 +40,7 @@ This project is a dashboard application for a booking company, designed to displ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/booking-dashboard.git
+   git clone https://github.com/MahmoodAyman/React-Dashboard
 
 
 # Technologies Used
